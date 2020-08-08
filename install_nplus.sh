@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh -x
 # Install NGINX Shell Script
 
 echo "Installing NGINX Plus"
