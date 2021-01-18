@@ -1,5 +1,6 @@
 #!/bin/sh -x
 # Install NGINX Shell Script
+export DEBIAN_FRONTEND=noninteractive
 
 echo "Installing NGINX Plus"
 echo "Ensure you have nginx-repo.crt & nginx-repo.key in your /tmp directory"
