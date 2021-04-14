@@ -13,3 +13,5 @@ echo " Sleeping 10 seconds "
 sudo service nginx start
 sudo service nginx status
 nginx -v
+
+# vim: syntax=nginx
