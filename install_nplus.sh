@@ -18,3 +18,5 @@ sudo apt-get update && sudo apt-get install -y nginx-plus
 sudo service nginx start
 sleep 5
 sudo service nginx status
+
+# vim: syntax=nginx
