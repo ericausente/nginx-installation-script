@@ -9,7 +9,7 @@ sudo cp /tmp/nginx-repo.key /etc/ssl/nginx/
 sudo amazon-linux-extras enable epel selinux-ng
 sudo yum clean metadata
 sudo yum install -y ca-certificates wget epel-release
-sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-amazon.repo
+sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-7.4.repo
 sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/app-protect-7.repo
 sudo yum install -y nginx-plus app-protect app-protect-attack-signatures
 sudo systemctl enable nginx.service
